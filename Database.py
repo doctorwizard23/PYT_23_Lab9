@@ -11,7 +11,7 @@ class Database:
         :return: none
         """
         if cls.__connection is None:
-            cls.__connection = pymssql.connect(server='cisdbss.pcc.edu', user='275student', password='275student',
+            cls.__connection = pymssql.connect(server='cisdbss.pcc.edu', user='', password='',
                                                database='NAMES')
 
 
